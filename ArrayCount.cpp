@@ -1,8 +1,5 @@
 #include<iostream>
 int main(){
-	int arr[]={1,2,3,4,4,5,6};
-int n = sizeof(arr)/sizeof(arr[0]);
-for(int i=0;i<n;i++){
-	std::cout<<i;
-}
+	int age[]={2,5,6,7,8,7,9,0,6,5,2};
+	std::cout<< sizeof(age)/sizeof(age[0])<<std::endl;
 }
