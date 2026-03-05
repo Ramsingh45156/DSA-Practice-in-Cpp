@@ -11,7 +11,7 @@ public:
     }
 
     void push(int x) {
-        if (top == 99) {
+        if (top == ) {
             cout << "Stack Overflow\n";
             return;
         }
